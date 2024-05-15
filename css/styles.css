@@ -16,6 +16,7 @@ p {
   text-indent: 0%;
 }
 
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -26,6 +27,20 @@ body {
   line-height: 1.11;
   letter-spacing: -0.03em;
   color: #111;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .logo-italic {
@@ -91,8 +106,7 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.ingredients {
-}
+.ingredients {}
 
 .section-title {
   font-weight: 600;
@@ -140,8 +154,7 @@ body {
   background: #1e1823;
 }
 
-.how {
-}
+.how {}
 
 .made-title {
   font-weight: 600;
